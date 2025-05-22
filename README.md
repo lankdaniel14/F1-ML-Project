@@ -66,13 +66,13 @@ This project provides several key features for F1 data analysis:
 
 <br>
   _Example: Driver Cluster Analysis_
-  <img src="./Images_F1/graph (1).png" alt="Driver Cluster Analysis Graph" width="500">
+  <img src="./Images_F1/graph (1).png"  width="500">
   * 📈 **Supervised Performance Prediction**: ...
   <br>
   _Example: Performance Prediction Results_
-  <img src="./Images_F1/graph (2).png" alt="Performance Prediction Graph" width="500">
+  <img src="./Images_F1/graph (2).png"  width="500">
   <br>
-  <img src="./Images_F1/graph (3).png" alt="Additional Performance Insights Graph" width="500">
+  <img src="./Images_F1/graph (3).png"  width="500">
 
 ---
 
