@@ -1,27 +1,62 @@
-# Formula 1 Machine Learning Analysis
+<div id="top">
 
-## Overview
-This project explores **unsupervised** and **supervised learning** techniques applied to Formula 1 race data. The goal is to analyze driver performance, cluster drivers based on their characteristics, and predict future performance using real-world race data.
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
-## Key Features
-1. **Data Collection**:
-   - Utilizes the [FastF1 API](https://theoehrly.github.io/Fast-F1/) to fetch structured race data from 2018 to 2023.
-   - Implements caching to avoid redundant API calls.
+# F1-ML-PROJECT
 
-2. **Unsupervised Learning**:
-   - Clusters drivers based on performance metrics using **KMeans**.
-   - Visualizes clusters using **PCA**.
+<em>Unlocking insights for winning Formula 1 strategies.</em>
 
-3. **Supervised Learning**:
-   - Predicts driver performance in future races.
-   - Explores features like qualifying position, average lap time, and position changes.
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/lankdaniel14/F1-ML-Project?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/lankdaniel14/F1-ML-Project?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/lankdaniel14/F1-ML-Project?style=flat&color=0080ff" alt="repo-language-count">
 
-4. **Exploratory Data Analysis (EDA)**:
-   - Visualizes trends and correlations in driver performance.
-   - Analyzes team and driver-specific statistics.
+<em>Built with the tools and technologies:</em>
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+</div>
+<br>
+
+---
+
+## 📄 Table of Contents
+
+- [Overview](#-overview)
+- [Getting Started](#-getting-started)
+    - [Prerequisites](#-prerequisites)
+    - [Installation](#-installation)
+    - [Usage](#-usage)
+    - [Testing](#-testing)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Roadmap](#-roadmap)
+
+---
+
+## ✨ Overview
+
+The **F1-ML-Project** is a machine learning-based tool designed to analyze and extract meaningful insights from Formula 1 racing data between 2018 and 2023.
+
+### 🎯 Project Goals:
+
+- 🧩 **Unsupervised Learning**: Cluster F1 drivers based on performance similarity across multiple races and seasons.
+- 🎯 **Supervised Learning**: Predict individual driver performance in upcoming races using past metrics.
+
+To achieve this, the project utilizes structured race data via the FastF1 API. The dataset includes telemetry, weather, timing, and event information from real F1 race weekends.
+
+### 🧠 Key Benefits:
+
+- 🔍 **Data-Driven Analysis**: Go beyond basic stats by using ML to detect patterns across seasons.
+- 🏎️ **Race Strategy Insights**: Understand what separates consistent podium drivers from the rest.
+- 📉 **Predictive Power**: Anticipate race-day outcomes with model-based forecasts.
+- 📁 **Reliable Data Pipeline**: FastF1 caching system is enabled to prevent redundant data downloads.
+- 📓 **Hands-On Jupyter Notebooks**: Work through all steps — from preprocessing to model training — interactively.
+
+---
+
+## 📁 Project Structure
+
+```sh
+F1-ML-Project/
+├── F1_ML.ipynb         # Main notebook containing all data processing, EDA, modeling
+└── README.md           # Project documentation
