@@ -65,11 +65,9 @@ This project provides several key features for F1 data analysis:
 - 📓 **Hands-On Jupyter Notebooks**: Work through all steps — from preprocessing to model training — interactively.
 
 <br>
-  _Example: Driver Cluster Analysis_
+
   <img src="./Images_F1/graph (1).png"  width="500">
-  * 📈 **Supervised Performance Prediction**: ...
   <br>
-  _Example: Performance Prediction Results_
   <img src="./Images_F1/graph (2).png"  width="500">
   <br>
   <img src="./Images_F1/graph (3).png"  width="500">
