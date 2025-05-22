@@ -13,6 +13,10 @@
 </div>
 <br>
 
+<div align="center">
+  <img src="./Images_F1/RedBull.png" alt="Red Bull F1 Car or Logo" width="600">
+  </div>
+<br>
 ---
 
 ## 📄 Table of Contents
@@ -51,6 +55,7 @@ This project provides several key features for F1 data analysis:
 * 📓 **Step-by-Step Jupyter Notebook**: Offers a well-documented Jupyter Notebook (`F1_ML.ipynb`) that guides users through the entire workflow, from data acquisition and preprocessing to model building and evaluation.
 
 
+
 ### 🧠 Key Benefits:
 
 - 🔍 **Data-Driven Analysis**: Go beyond basic stats by using ML to detect patterns across seasons.
@@ -58,6 +63,16 @@ This project provides several key features for F1 data analysis:
 - 📉 **Predictive Power**: Anticipate race-day outcomes with model-based forecasts.
 - 📁 **Reliable Data Pipeline**: FastF1 caching system is enabled to prevent redundant data downloads.
 - 📓 **Hands-On Jupyter Notebooks**: Work through all steps — from preprocessing to model training — interactively.
+
+<br>
+  _Example: Driver Cluster Analysis_
+  <img src="./Images_F1/graph (1).png" alt="Driver Cluster Analysis Graph" width="500">
+  * 📈 **Supervised Performance Prediction**: ...
+  <br>
+  _Example: Performance Prediction Results_
+  <img src="./Images_F1/graph (2).png" alt="Performance Prediction Graph" width="500">
+  <br>
+  <img src="./Images_F1/graph (3).png" alt="Additional Performance Insights Graph" width="500">
 
 ---
 
