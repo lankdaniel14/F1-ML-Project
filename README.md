@@ -10,8 +10,6 @@
 <img src="https://img.shields.io/github/languages/top/lankdaniel14/F1-ML-Project?style=flat&color=0080ff" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/lankdaniel14/F1-ML-Project?style=flat&color=0080ff" alt="repo-language-count">
 
-<em>Built with the tools and technologies:</em>
-
 </div>
 <br>
 
