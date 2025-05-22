@@ -113,10 +113,7 @@ Before you begin, ensure you have the following installed:
     jupyter
     ```
     Then install them using:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    If you don't have a `requirements.txt` yet, you can install the core libraries manually:
+  
     ```bash
     pip install fastf1 pandas numpy scikit-learn matplotlib seaborn jupyter
     ```
