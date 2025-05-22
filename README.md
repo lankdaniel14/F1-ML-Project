@@ -40,6 +40,19 @@ The **F1-ML-Project** is a machine learning-based tool designed to analyze and e
 
 To achieve this, the project utilizes structured race data via the FastF1 API. The dataset includes telemetry, weather, timing, and event information from real F1 race weekends.
 
+## ✨ Features
+
+This project provides several key features for F1 data analysis:
+
+* 📊 **Comprehensive Data Integration**: Leverages the FastF1 API to access detailed race data including telemetry, weather, lap timings, and session information from 2018 to 2023.
+* 💾 **Efficient Data Caching**: Implements FastF1's caching system to minimize redundant data downloads and speed up data retrieval on subsequent runs.
+* 🤖 **Unsupervised Driver Clustering**: Applies unsupervised machine learning techniques (e.g., K-Means, DBSCAN) to group F1 drivers based on their performance metrics across various races and seasons, revealing underlying similarities and performance profiles.
+* 📈 **Supervised Performance Prediction**: Utilizes supervised machine learning models (e.g., Regression models, Tree-based models) to forecast individual driver performance in upcoming races using historical data.
+* 📝 **Exploratory Data Analysis (EDA)**: Conducts in-depth EDA to uncover trends, patterns, and correlations within the F1 dataset.
+* 🎨 **Interactive Visualizations**: Presents findings and model results through clear and informative visualizations using libraries like Matplotlib and Seaborn.
+* 📓 **Step-by-Step Jupyter Notebook**: Offers a well-documented Jupyter Notebook (`F1_ML.ipynb`) that guides users through the entire workflow, from data acquisition and preprocessing to model building and evaluation.
+
+
 ### 🧠 Key Benefits:
 
 - 🔍 **Data-Driven Analysis**: Go beyond basic stats by using ML to detect patterns across seasons.
@@ -122,16 +135,6 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## ✨ Features
 
-This project provides several key features for F1 data analysis:
-
-* 📊 **Comprehensive Data Integration**: Leverages the FastF1 API to access detailed race data including telemetry, weather, lap timings, and session information from 2018 to 2023.
-* 💾 **Efficient Data Caching**: Implements FastF1's caching system to minimize redundant data downloads and speed up data retrieval on subsequent runs.
-* 🤖 **Unsupervised Driver Clustering**: Applies unsupervised machine learning techniques (e.g., K-Means, DBSCAN) to group F1 drivers based on their performance metrics across various races and seasons, revealing underlying similarities and performance profiles.
-* 📈 **Supervised Performance Prediction**: Utilizes supervised machine learning models (e.g., Regression models, Tree-based models) to forecast individual driver performance in upcoming races using historical data.
-* 📝 **Exploratory Data Analysis (EDA)**: Conducts in-depth EDA to uncover trends, patterns, and correlations within the F1 dataset.
-* 🎨 **Interactive Visualizations**: Presents findings and model results through clear and informative visualizations using libraries like Matplotlib and Seaborn.
-* 📓 **Step-by-Step Jupyter Notebook**: Offers a well-documented Jupyter Notebook (`F1_ML.ipynb`) that guides users through the entire workflow, from data acquisition and preprocessing to model building and evaluation.
 
 ---
